@@ -1,0 +1,21 @@
+body {
+	background-image: url(keith-tan-man-lying-on-court-unsplash.jpg);
+	/*background-image: url("rosie-yang-CBA-unsplash.jpg");*/
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	opacity: 0.7;
+}
+
+div	{
+	overflow: scroll;
+}
+
+table {
+	color: black; 
+	background-color: white;
+	/*max-height: 100%;*/
+/*	size: 100%;*/
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<div>
+		<label for="firstname">First Name</label>
+		<input type="text" id = "firstname" name="Firstname" placeholder="John" required>
+		
+		<label for="lastname">Last Name</label>
+		<input type="text" id = "lastname" name="Lastname" placeholder="Smith" required>
+	</div>
+
+	<div>
+		<label for="male">Male</label>
+		<input type="radio" id = "male" name="Gender" value="Male" required>
+
+		<label for="female">Female</label>
+		<input type="radio" id = "female" name="Gender" value="Female">
+
+		<label for="other">Other</label>
+		<input type="radio" id = "other" name="Gender" value="Other">
+	</div>
+
+	<div>
+		<label>Email:</label>
+		<input type="Email" name="Email" required="">
+
+		<label>Password:</label>
+		<input type="Password" name="Password" required="" minlength="3" maxlength="7">
+
+	</div>
+
+	<div>
+		<select name="Month" >
+			<option value="1">Jan</option>
+			<option value="2">Feb</option>
+			<option value="3">Mar</option>
+			<option value="4">Apr</option>
+		</select>
+
+		<select name="Year">
+			<option value="2001">2001</option>
+			<option value="2002">2002</option>
+			<option value="2003">2003</option>
+			<option value="2004">2004</option>
+		</select>
+	</div>
+
+	<div>
+		<span>I agree</span>
+		<input type="checkbox" name="agree" value="1">
+	</div>
+
+	<button>Submit</button>
+</form>
+
+</body>
+</html>
