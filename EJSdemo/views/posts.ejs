@@ -1,0 +1,16 @@
+<h1>Post Page</h1>
+<!-- use for function -->
+<% for (let index = 0; index < posts.length; index++) {
+    var title = posts[index]["title"];
+    var author = posts[index]["author"];
+%>
+<li><%= author %> - <%= title %> </li>
+
+<% } %>
+
+<br>
+<!-- use for function -->
+<% posts.forEach(function(post){ %>
+    <li><%= post.author %> - <%= post.title%></li>
+
+<% }); %>
